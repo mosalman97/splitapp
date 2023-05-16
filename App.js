@@ -1,14 +1,8 @@
 import React from 'react';
-import {View, Text, SafeAreaView} from 'react-native';
+import BillSplitScreen from './src/screen/BillSplitScreen';
 
 function App() {
-  return (
-    <SafeAreaView>
-      <View>
-        <Text>hello</Text>
-      </View>
-    </SafeAreaView>
-  );
+  return <BillSplitScreen />;
 }
 
 export default App;
